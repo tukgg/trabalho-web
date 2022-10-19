@@ -1,0 +1,139 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background-color: #ffebcd;
+}
+
+h1{
+  font-size: 3em;
+  color: purple;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+h3{
+  background: #ccc;
+  color: #565656;
+  padding: 5px;
+  font-size: 1.17em;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #800080;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+table{
+  width: 400px;
+}
+
+td, tr, th{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th{
+  font-weight: bold;
+  background-color: rgb(204, 0, 255);
+}
+
+td{
+  background-color: pink;
+}
+
+
+#cabecalho{
+  text-align: center;
+  padding: 15px;
+  background-color: #ffc0cb;
+  box-shadow: 1px 1px 2px #333;
+}
+
+#logo, #menu{
+  padding: 10px;
+}
+
+#menu > a{
+  text-decoration: none;
+  padding: 8px 12px;
+  color: purple;
+}
+
+#menu > a:hover{
+  background-color: white;
+}
+
+#principal{
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagem{
+  float: left;
+  width: 660px;
+}
+
+#area-sobre{
+  width: 960px;
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: 1px 1px 2px #333;
+  border-radius: 5px;
+}
+
+.postagem > img{
+  width: 620px;
+}
+
+#area-lateral{
+  float: right;
+  width: 240px;
+  font-weight: bold;
+}
+
+.lateral{
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px #333;
+  border-radius: 5px;
+}
+
+.postagem-latereal{
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.data{
+  font-size: 0.8em;
+}
+
+.input{
+  width: 240px;
+}
+
+#rodape{
+  background-color: #ccc;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
+
+.icone{
+  width: 24px;
+}
+
+#img-logo{
+  width: 225px;
+}
